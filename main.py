@@ -52,37 +52,36 @@ def logMeter():
 
 logMeter()
 
+print(loadFiles())
+
+devide = endpoint.strip().split('\r\n')
+
+medidor = []
+consumo = []
+
+for aux in range(len(devide)):
+    if devide[aux].__contains__('kWh'):
+        medidor.append(devide[aux].split(',')[0])
+        aux = devide[aux].split(',')[1].removeprefix('Initial/Latest kWh 0 /').strip()
+        consumo.append(aux)
+
+ploterGraph.title('Grafico de consumo')
+ploterGraph.xlabel('Medidor')
+ploterGraph.ylabel('kWh')
+
+for aux in range(len(consumo)):
+    if consumo[aux] != '':
+        conv = '{0:2f}'.format(float(consumo[aux]))
+        consumo[aux] = conv
+
+zipList = zip(consumo, medidor)
+sorlist = sorted(zipList)
+
+aux = zip(*sorlist)
+medidor, consumo = [ list(aux1) for aux1 in aux]
 
 
+ploterGraph.plot(medidor, consumo)
 
-
-# print(loadFiles())
-#
-# devide = endpoint.strip().split('\r\n')
-#
-# medidor = []
-# consumo = []
-#
-# for aux in range(len(devide)):
-#     if devide[aux].__contains__('kWh'):
-#         medidor.append(devide[aux].split(',')[0])
-#         consumo.append(devide[aux].split(',')[1].removeprefix('Initial/Latest kWh 0 /').strip())
-#
-# aux1 = np.array(medidor)
-# aux2 = np.array(consumo)
-#
-# orderedVec = np.lexsort([aux1, aux2])
-#
-# aux1 = aux1[orderedVec]
-# aux2 = aux2[orderedVec]
-#
-# print(aux1, aux2)
-#
-# ploterGraph.title('Grafico de consumo')
-# ploterGraph.xlabel('Medidor')
-# ploterGraph.ylabel('kWh')
-#
-# ploterGraph.plot(medidor, consumo)
-#
-# ploterGraph.show()
+ploterGraph.show()
 
