@@ -5,12 +5,22 @@ import numpy as np
 import operator as op
 from tabulate import tabulate
 
-logsfilePath = 'files/log.csv'
+logsfilePath = 'files/'
 
 def loadFiles():
-    with open(logsfilePath, "r", newline='\r\n') as file1:
-        global endpoint
-        endpoint= file1.read()
+    global logList
+    files = []
+    logList = []
+    #lista arquivos do diretório
+    for logfiles in os.listdir(logsfilePath):
+        files.append(logfiles)
+    #carrega arquivos com nome logxx/xx/xxxx.csv
+
+    for aux in range(len(files)):
+        if files[aux].startswith('log'):
+            with open(logsfilePath + files[aux], "r", newline='\r\n') as file1:
+                logList.append(file1.read())
+
     return 'Arquivos carregados!!!'
 
 def logMeter():
@@ -51,44 +61,54 @@ def logMeter():
     print(tabulate(result, headers=colName, tablefmt="fancy_grid"))
 
 def plotGraph():
-    devide = endpoint.strip().split('\r\n')
 
-    medidor = []
-    consumo = []
+    endpoint =[]
 
-    for aux in range(len(devide)):
-        if devide[aux].__contains__('kWh'):
-            medidor.append(devide[aux].split(',')[0])
-            aux = devide[aux].split(',')[1].removeprefix('Initial/Latest kWh 0 /').strip()
-            consumo.append(aux)
+    for aux in range(len(logList)):
 
-    ploterGraph.title('Grafico de consumo')
-    ploterGraph.xlabel('Medidor')
-    ploterGraph.ylabel('kWh')
+        endpoint = logList[aux]
 
-    for aux in range(len(consumo)):
-        if consumo[aux] != '':
-            conv = '{0:2f}'.format(float(consumo[aux]))
-            consumo[aux] = conv
-        else:
-            consumo[aux] = '0'
+        devide = endpoint.strip().split('\r\n')
 
-    consumoFloat = np.array(consumo)
-    floatarray = consumoFloat.astype(float)
+        medidor = []
+        consumo = []
 
-    zipList = zip(floatarray, medidor)
-    sorlist = sorted(zipList)
+        for aux in range(len(devide)):
+            if devide[aux].__contains__('kWh'):
+                medidor.append(devide[aux].split(',')[0])
+                aux = devide[aux].split(',')[1].removeprefix('Initial/Latest kWh 0 /').strip()
+                consumo.append(aux)
 
-    aux = zip(*sorlist)
-    consumo, medidor = [ list(aux1) for aux1 in aux]
+        print(medidor+consumo)
 
-    ploterGraph.plot(medidor, consumo, label= "28/11/2022")
-    ploterGraph.legend()
+        ploterGraph.title('Grafico de consumo')
+        ploterGraph.xlabel('Medidor')
+        ploterGraph.ylabel('kWh')
 
+        for aux in range(len(consumo)):
+            if consumo[aux] != '':
+                conv = '{0:2f}'.format(float(consumo[aux]))
+                consumo[aux] = conv
+            else:
+                consumo[aux] = '0'
+
+        consumoFloat = np.array(consumo)
+        floatarray = consumoFloat.astype(float)
+
+        zipList = zip(floatarray, medidor)
+        sorlist = sorted(zipList)
+
+        aux = zip(*sorlist)
+        consumo, medidor = [ list(aux1) for aux1 in aux]
+
+        ploterGraph.plot(medidor, consumo, label= "28/11/2022")
+        ploterGraph.legend()
+
+        ploterGraph.draw()
     ploterGraph.show()
 
 
 print(loadFiles())
-logMeter()
+#logMeter()
 plotGraph()
 
