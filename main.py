@@ -9,16 +9,18 @@ logsfilePath = 'files/'
 
 def loadFiles():
     global logList
-    files = []
+    global filesName
+    filesName = []
     logList = []
     #lista arquivos do diretório
     for logfiles in os.listdir(logsfilePath):
-        files.append(logfiles)
+        if logfiles.startswith('log'):
+            filesName.append(logfiles)
     #carrega arquivos com nome logxx/xx/xxxx.csv
 
-    for aux in range(len(files)):
-        if files[aux].startswith('log'):
-            with open(logsfilePath + files[aux], "r", newline='\r\n') as file1:
+    for aux in range(len(filesName)):
+        if filesName[aux].startswith('log'):
+            with open(logsfilePath + filesName[aux], "r", newline='\r\n') as file1:
                 logList.append(file1.read())
 
     return 'Arquivos carregados!!!'
@@ -65,7 +67,7 @@ def plotGraph():
     endpoint =[]
 
     for aux in range(len(logList)):
-
+        counter = aux
         endpoint = logList[aux]
 
         devide = endpoint.strip().split('\r\n')
@@ -101,7 +103,7 @@ def plotGraph():
         aux = zip(*sorlist)
         consumo, medidor = [ list(aux1) for aux1 in aux]
 
-        ploterGraph.plot(medidor, consumo, label= "28/11/2022")
+        ploterGraph.plot(medidor, consumo, label= filesName[counter])
         ploterGraph.legend()
 
         ploterGraph.draw()
