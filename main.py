@@ -82,7 +82,8 @@ def plotGraph():
     aux = zip(*sorlist)
     consumo, medidor = [ list(aux1) for aux1 in aux]
 
-    ploterGraph.plot(medidor, consumo)
+    ploterGraph.plot(medidor, consumo, label= "28/11/2022")
+    ploterGraph.legend()
 
     ploterGraph.show()
 
