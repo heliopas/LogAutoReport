@@ -104,9 +104,9 @@ def plotGraph():
         consumo, medidor = [ list(aux1) for aux1 in aux]
 
         ploterGraph.plot(medidor, consumo, label= filesName[counter])
-        ploterGraph.legend()
-
         ploterGraph.draw()
+
+    ploterGraph.legend()
     ploterGraph.show()
 
 
