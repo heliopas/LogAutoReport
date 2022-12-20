@@ -1,0 +1,210 @@
+ID,PortMonitor,Status,Kwh,LastReading,LastGoodPacket,ReleStatus,Model,FWver
+40056591,Door closed /400565912022-12-19 16:57:16.016098,Normal,,Last Reading:,,,,1.1.4
+40059560,Door closed /400595602022-12-19 16:58:32.875659,Normal,,Last Reading:,,,,01.01.04
+400565A2,Door closed /400565A22022-12-19 16:59:44.986046,Normal,,Last Reading:,,,,01.01.04
+400565B9,Door closed /400565B92022-12-19 17:01:19.328937,Normal,,Last Reading: 14.7830 - 11/10/2022 4:17:37 PM,,,,01.01.04
+400565BF,Door closed /400565BF2022-12-19 17:02:36.386334,Normal,,Last Reading:,,,,01.01.04
+400565A7,Door closed /400565A72022-12-19 17:03:55.511082,Normal,,Last Reading:,,,,01.01.04
+40056586,Door closed /400565862022-12-19 17:06:04.413939,Normal,,Last Reading:,,,,01.01.04
+9160F5DF,Door closed /9160F5DF2022-12-19 17:07:21.656543,Normal,,Last Reading:,,,,01.01.04
+400565ED,Door closed /400565ED2022-12-19 17:08:39.871996,Normal,,Last Reading:,,,,01.01.04
+40056599,Door closed /400565992022-12-19 17:09:57.895300,Normal,,Last Reading:,,,,01.01.04
+4005659E,Door closed /4005659E2022-12-19 17:11:14.805127,Normal,,Last Reading:,,,,01.01.04
+40056589,Door closed /400565892022-12-19 17:12:24.775313,Normal,,Last Reading:,,,,01.01.04
+400565AD,Door closed /400565AD2022-12-19 17:13:33.451526,Normal,,Last Reading:,,,,1.1.4
+400565EE,Door closed /400565EE2022-12-19 17:14:42.715807,Normal,,Last Reading:,,,,01.01.04
+400565A0,Door closed /400565A02022-12-19 17:15:53.434077,Normal,,Last Reading:,,,,01.01.04
+4005659C,Door closed /4005659C2022-12-19 17:17:03.230504,Normal,,Last Reading: 27.3830 - 11/11/2022 2:40:43 PM,,,,01.01.04
+400565B5,Door closed /400565B52022-12-19 17:18:10.337047,Normal,,Last Reading:,,,,01.01.04
+400565BC,Door closed /400565BC2022-12-19 17:19:16.445111,Normal,,Last Reading:,,,,01.01.04
+40056596,Door closed /400565962022-12-19 17:20:24.271978,Normal,,Last Reading:,,,,01.01.04
+40056601,Door closed /400566012022-12-19 17:21:32.858992,Normal,,Last Reading:,,,,01.01.04
+400565F3,Door closed /400565F32022-12-19 17:22:41.053194,Normal,,Last Reading:,,,,01.01.04
+400565C3,Door closed /400565C32022-12-19 17:23:48.287838,Normal,,Last Reading:,,,,01.01.04
+400565F5,Door closed /400565F52022-12-19 17:24:58.464679,Normal,,Last Reading:,,,,01.01.04
+400565E3,Door closed /400565E32022-12-19 17:26:06.400661,Normal,,Last Reading:,,,,01.01.04
+00AA007D,,Normal,Initial/Latest kWh 0 / 25.0420,Last Reading: 25.0420 - 11/30/2022 7:27:42 AM,11/30/2022 7:28:08 AM,Connected,Magno Grid - E212,01.00.03
+00AA0087,,Normal,Initial/Latest kWh 0 / 26.9780,Last Reading: 26.9780 - 11/30/2022 9:05:52 AM,11/30/2022 9:06:10 AM,Connected,Magno Grid - E212,01.00.03
+00AA00AD,,Normal,Initial/Latest kWh 0 / 35.1820,Last Reading: 35.1820 - 12/19/2022 3:18:27 PM,12/19/2022 3:18:44 PM,Connected,Magno Grid - E212,01.00.03
+00AA00B1,,Normal,Initial/Latest kWh 0 / 41.9120,Last Reading: 41.9120 - 11/30/2022 8:00:25 AM,11/30/2022 8:00:42 AM,Connected,Magno Grid - E212,01.00.03
+00AA00B5,,Normal,Initial/Latest kWh 0 / 47.5430,Last Reading: 47.5430 - 12/19/2022 1:32:18 PM,12/19/2022 1:32:40 PM,Connected,Magno Grid - E212,01.00.03
+00AA00C9,,Normal,Initial/Latest kWh 0 / 43.8940,Last Reading: 43.8940 - 12/19/2022 1:52:45 PM,12/19/2022 1:52:58 PM,Connected,Magno Grid - E212,01.00.03
+00AA00CB,,Normal,Initial/Latest kWh 0 / 50.64,Last Reading: 50.6400 - 12/19/2022 4:16:46 PM,12/19/2022 4:17:06 PM,Connected,Magno Grid - E212,01.00.03
+00AA00CF,,Normal,Initial/Latest kWh 0 / 31.1830,Last Reading: 31.1830 - 11/30/2022 9:38:35 AM,11/30/2022 9:39:05 AM,Connected,Magno Grid - E212,01.00.03
+00AA00D1,,Normal,Initial/Latest kWh 0 / 22.6580,Last Reading: 22.6580 - 12/19/2022 12:18:28 PM,12/19/2022 12:18:53 PM,Connected,Magno Grid - E212,01.00.03
+00AA00D7,,Normal,Initial/Latest kWh 0 / 23.4520,Last Reading: 23.4520 - 12/19/2022 1:26:07 PM,12/19/2022 1:26:24 PM,Connected,Magno Grid - E212,01.00.03
+00AA00D9,,Normal,Initial/Latest kWh 0 / 26.1750,Last Reading: 26.1750 - 12/19/2022 8:02:07 AM,12/19/2022 8:02:25 AM,Connected,Magno Grid - E212,01.00.03
+00AA00DB,,Normal,Initial/Latest kWh 0 / 26.3170,Last Reading: 26.3170 - 12/19/2022 1:48:28 PM,12/19/2022 1:48:51 PM,Connected,Magno Grid - E212,01.00.03
+00AA00DF,,Normal,Initial/Latest kWh 0 / 20.6930,Last Reading: 20.6930 - 12/19/2022 12:50:07 PM,12/19/2022 12:50:29 PM,Connected,Magno Grid - E212,01.00.03
+00AA00E1,,Normal,Initial/Latest kWh 0 / 19.55,Last Reading: 19.5500 - 11/30/2022 7:30:53 AM,11/30/2022 7:31:10 AM,Connected,Magno Grid - E212,01.00.03
+00AA00E3,,Normal,Initial/Latest kWh 0 / 35.9650,Last Reading: 35.9650 - 12/19/2022 11:56:27 AM,12/19/2022 11:56:48 AM,Connected,Magno Grid - E212,01.00.03
+00AA00E5,,Normal,Initial/Latest kWh 0 / 26.0310,Last Reading: 26.0310 - 12/19/2022 2:15:23 PM,12/19/2022 2:15:42 PM,Connected,Magno Grid - E212,01.00.03
+00AA00E7,,Normal,Initial/Latest kWh 0 / 22.7540,Last Reading: 22.7540 - 12/19/2022 4:15:49 PM,12/19/2022 4:16:11 PM,Connected,Magno Grid - E212,01.00.03
+00AA00E9,,Normal,Initial/Latest kWh 0 / 35.8750,Last Reading: 35.8750 - 12/19/2022 3:32:26 PM,12/19/2022 3:32:43 PM,Connected,Magno Grid - E212,01.00.03
+00AA00EB,,Normal,Initial/Latest kWh 0 / 23.6860,Last Reading: 23.6860 - 12/19/2022 12:27:22 PM,12/19/2022 12:27:40 PM,Connected,Magno Grid - E212,01.00.03
+00AA00F1,,Normal,Initial/Latest kWh 0 / 12.3110,Last Reading: 12.3110 - 12/19/2022 3:51:22 PM,12/19/2022 3:51:43 PM,Connected,Magno Grid - E212,01.00.03
+00AA00F5,,Normal,Initial/Latest kWh 0 / 20.03,Last Reading: 20.0300 - 12/19/2022 2:53:37 PM,12/19/2022 2:53:53 PM,Connected,Magno Grid - E212,01.00.03
+00AA00FD,,Normal,Initial/Latest kWh 0 / 35.7260,Last Reading: 35.7260 - 12/19/2022 5:52:41 PM,12/19/2022 5:52:57 PM,Connected,Magno Grid - E212,01.00.03
+00AA00FF,,Normal,Initial/Latest kWh 0 / 21.6370,Last Reading: 21.6370 - 12/19/2022 12:27:37 PM,12/19/2022 12:28:00 PM,Connected,Magno Grid - E212,01.00.03
+00AA0103,,Normal,Initial/Latest kWh 0 / 23.98,Last Reading: 23.9800 - 12/19/2022 3:48:27 PM,12/19/2022 3:48:41 PM,Connected,Magno Grid - E212,01.00.03
+00AA0105,,Normal,Initial/Latest kWh 0 / 35.7950,Last Reading: 35.7950 - 12/19/2022 3:39:49 PM,12/19/2022 3:40:08 PM,Connected,Magno Grid - E212,01.00.03
+00AA0107,,Normal,Initial/Latest kWh 0 / 33.4580,Last Reading: 33.4580 - 12/19/2022 2:20:28 PM,12/19/2022 2:20:46 PM,Connected,Magno Grid - E212,01.00.03
+00AA010F,,Normal,Initial/Latest kWh 0 / 34.29,Last Reading: 34.2900 - 12/19/2022 12:40:45 PM,12/19/2022 12:41:01 PM,Connected,Magno Grid - E212,01.00.03
+00AA0119,,Normal,Initial/Latest kWh 0 / 34.5520,Last Reading: 34.5520 - 12/19/2022 1:51:48 PM,12/19/2022 1:52:07 PM,Connected,Magno Grid - E212,01.00.03
+00AA011B,,Normal,Initial/Latest kWh 0 / 22.2780,Last Reading: 22.2780 - 12/19/2022 2:53:57 PM,12/19/2022 2:54:22 PM,Connected,Magno Grid - E212,01.00.03
+00AA011D,,Normal,Initial/Latest kWh 0 / 26.2620,Last Reading: 26.2620 - 12/19/2022 1:15:48 PM,12/19/2022 1:16:06 PM,Connected,Magno Grid - E212,01.00.03
+00AA011F,,Normal,Initial/Latest kWh 0 / 34.0250,Last Reading: 34.0250 - 12/19/2022 9:09:12 AM,12/19/2022 9:09:37 AM,Connected,Magno Grid - E212,01.00.03
+00AA0121,,Normal,Initial/Latest kWh 0 / 24.8820,Last Reading: 24.8820 - 12/19/2022 8:36:29 AM,12/19/2022 8:36:52 AM,Connected,Magno Grid - E212,01.00.03
+00AA0129,,Normal,Initial/Latest kWh 0 /,Last Reading: - 12/19/2022 1:51:06 PM,12/19/2022 1:51:24 PM,Connected,Magno Grid - E212,01.00.03
+00AA012B,,Normal,Initial/Latest kWh 0 / 25.7590,Last Reading: 25.7590 - 11/23/2022 9:58:47 AM,11/25/2022 4:41:42 PM,Connected,Magno Grid - E212,01.00.03
+00AA0139,,Normal,Initial/Latest kWh 0 / 38.3660,Last Reading: 38.3660 - 11/23/2022 2:58:47 PM,11/25/2022 4:39:45 PM,Connected,Magno Grid - E212,01.00.03
+00AA013B,,Normal,Initial/Latest kWh 0 / 26.1520,Last Reading: 26.1520 - 11/30/2022 8:36:19 AM,11/30/2022 8:36:41 AM,Connected,Magno Grid - E212,01.00.03
+00AA0141,,Normal,Initial/Latest kWh 0 / 41.5480,Last Reading: 41.5480 - 12/19/2022 3:04:46 PM,12/19/2022 3:05:00 PM,Connected,Magno Grid - E212,01.00.03
+00AA0143,,Normal,Initial/Latest kWh 0 / 26.37,Last Reading: 26.3700 - 12/19/2022 1:30:58 PM,12/19/2022 1:31:20 PM,Connected,Magno Grid - E212,01.00.03
+00AA0145,,Normal,Initial/Latest kWh 0 / 29.9810,Last Reading: 29.9810 - 11/30/2022 10:43:59 AM,11/30/2022 10:44:19 AM,Connected,Magno Grid - E212,01.00.03
+00AA0147,,Normal,Initial/Latest kWh 0 / 44.4270,Last Reading: 44.4270 - 11/30/2022 12:22:09 PM,11/30/2022 12:22:30 PM,Connected,Magno Grid - E212,01.00.03
+00AA0149,,Normal,Initial/Latest kWh 0 / 23.1560,Last Reading: 23.1560 - 12/19/2022 2:03:41 PM,12/19/2022 2:03:53 PM,Connected,Magno Grid - E212,01.00.03
+00AA014B,,Normal,Initial/Latest kWh 0 / 25.40,Last Reading: 25.4000 - 11/30/2022 11:16:43 AM,11/30/2022 11:17:04 AM,Connected,Magno Grid - E212,01.00.03
+00AA014D,,Normal,Initial/Latest kWh 0 / 21.6210,Last Reading: 21.6210 - 12/19/2022 3:41:48 PM,12/19/2022 3:42:17 PM,Connected,Magno Grid - E212,01.00.03
+00AA014F,,Normal,Initial/Latest kWh 0 / 26.1990,Last Reading: 26.1990 - 12/19/2022 12:58:14 PM,12/19/2022 12:58:35 PM,Connected,Magno Grid - E212,01.00.03
+00AA0151,,Normal,Initial/Latest kWh 0 / 48.7940,Last Reading: 48.7940 - 12/19/2022 2:28:45 PM,12/19/2022 2:29:03 PM,Connected,Magno Grid - E212,01.00.03
+00AA0153,,Normal,Initial/Latest kWh 0 / 34.4870,Last Reading: 34.4870 - 11/30/2022 11:49:26 AM,11/30/2022 11:49:49 AM,Connected,Magno Grid - E212,01.00.03
+00AA0155,,Normal,Initial/Latest kWh 0 / 29.2980,Last Reading: 29.2980 - 11/30/2022 10:08:21 AM,11/30/2022 10:08:45 AM,Connected,Magno Grid - E212,01.00.03
+00AA0157,,Normal,Initial/Latest kWh 0 / 57.4450,Last Reading: 57.4450 - 12/19/2022 3:43:54 PM,12/19/2022 3:44:11 PM,Connected,Magno Grid - E212,01.00.03
+00AA0159,,Normal,Initial/Latest kWh 0 / 16.8620,Last Reading: 16.8620 - 11/30/2022 6:58:10 AM,11/30/2022 6:58:33 AM,Connected,Magno Grid - E212,01.00.03
+00AA015B,,Normal,Initial/Latest kWh 0 / 22.32,Last Reading: 22.3200 - 12/19/2022 2:51:23 PM,12/19/2022 2:51:48 PM,Connected,Magno Grid - E212,01.00.03
+00AA015E,,Normal,Initial/Latest kWh 0 / 23.2390,Last Reading: 23.2390 - 12/19/2022 1:48:33 PM,12/19/2022 1:48:52 PM,Connected,Magno Grid - E212,01.00.03
+00AA0160,,Normal,Initial/Latest kWh 0 / 26.5290,Last Reading: 26.5290 - 12/19/2022 3:03:48 PM,12/19/2022 3:04:10 PM,Connected,Magno Grid - E212,01.00.03
+00AA0162,,Normal,Initial/Latest kWh 0 / 22.58,Last Reading: 22.5800 - 12/19/2022 5:21:23 PM,12/19/2022 5:21:45 PM,Connected,Magno Grid - E212,01.00.03
+00AA019C,,Normal,Initial/Latest kWh 0 / 20.7040,Last Reading: 20.7040 - 12/19/2022 5:22:04 PM,12/19/2022 5:22:25 PM,Connected,Magno Grid - E212,01.00.03
+00AA01A0,,Normal,Initial/Latest kWh 0 / 23.2390,Last Reading: 23.2390 - 12/19/2022 6:39:48 PM,12/19/2022 6:40:02 PM,Connected,Magno Grid - E212,01.00.03
+00AA01A2,,Normal,Initial/Latest kWh 0 / 34.3560,Last Reading: 34.3560 - 12/19/2022 6:03:48 PM,12/19/2022 6:04:05 PM,Connected,Magno Grid - E212,01.00.03
+00AA01A7,,Normal,Initial/Latest kWh 0 / 22.7910,Last Reading: 22.7910 - 12/19/2022 2:27:48 PM,12/19/2022 2:28:12 PM,Connected,Magno Grid - E212,01.00.03
+00AA01A9,,Normal,Initial/Latest kWh 0 / 30.61,Last Reading: 30.6100 - 12/19/2022 4:47:15 PM,12/19/2022 4:47:38 PM,Connected,Magno Grid - E212,01.00.03
+00AA01AB,,Normal,Initial/Latest kWh 0 / 8.5450,Last Reading: 8.5450 - 12/19/2022 3:26:40 PM,12/19/2022 3:27:06 PM,Connected,Magno Grid - E212,01.00.03
+00AA01AD,,Normal,Initial/Latest kWh 0 / 8.3670,Last Reading: 8.3670 - 12/19/2022 4:32:06 PM,12/19/2022 4:32:24 PM,Connected,Magno Grid - E212,01.00.03
+00AA01AF,,Normal,Initial/Latest kWh 0 / 26.7760,Last Reading: 26.7760 - 12/19/2022 4:48:27 PM,12/19/2022 4:48:46 PM,Connected,Magno Grid - E212,01.00.03
+00AA01B1,,Normal,Initial/Latest kWh 0 / 25.2950,Last Reading: 25.2950 - 12/19/2022 4:36:22 PM,12/19/2022 4:36:37 PM,Connected,Magno Grid - E212,01.00.03
+00AA01B3,,Normal,Initial/Latest kWh 0 / 21.0280,Last Reading: 21.0280 - 12/19/2022 2:05:47 PM,12/19/2022 2:06:05 PM,Connected,Magno Grid - E212,01.00.03
+00AA01B5,,Normal,Initial/Latest kWh 0 / 26.6770,Last Reading: 26.6770 - 12/19/2022 3:06:22 PM,12/19/2022 3:06:31 PM,Connected,Magno Grid - E212,01.00.03
+00AA01B7,,Normal,Initial/Latest kWh 0 / 22.4270,Last Reading: 22.4270 - 12/19/2022 1:33:03 PM,12/19/2022 1:33:29 PM,Connected,Magno Grid - E212,01.00.03
+00AA01B9,,Normal,Initial/Latest kWh 0 / 23.1690,Last Reading: 23.1690 - 12/19/2022 4:16:38 PM,12/19/2022 4:16:53 PM,Connected,Magno Grid - E212,01.00.03
+00AA01BB,,Normal,Initial/Latest kWh 0 / 33.7330,Last Reading: 33.7330 - 12/19/2022 2:38:30 PM,12/19/2022 2:38:50 PM,Connected,Magno Grid - E212,01.00.03
+00AA01BD,,Normal,Initial/Latest kWh 0 / 18.9510,Last Reading: 18.9510 - 12/19/2022 5:04:50 PM,12/19/2022 5:05:19 PM,Connected,Magno Grid - E212,01.00.03
+00AA01BF,,Normal,Initial/Latest kWh 0 / 24.1360,Last Reading: 24.1360 - 12/19/2022 5:54:47 PM,12/19/2022 5:55:08 PM,Connected,Magno Grid - E212,01.00.03
+00AA01C2,,Normal,Initial/Latest kWh 0 / 21.0940,Last Reading: 21.0940 - 12/19/2022 4:49:21 PM,12/19/2022 4:49:40 PM,Connected,Magno Grid - E212,01.00.03
+00AA01C4,,Normal,Initial/Latest kWh 0 / 33.9480,Last Reading: 33.9480 - 12/19/2022 11:02:06 AM,12/19/2022 11:02:27 AM,Connected,Magno Grid - E212,01.00.03
+00AA01C6,,Normal,Initial/Latest kWh 0 / 27.02,Last Reading: 27.0200 - 12/19/2022 5:27:47 PM,12/19/2022 5:28:09 PM,Connected,Magno Grid - E212,01.00.03
+00AA01C8,,Normal,Initial/Latest kWh 0 / 25.6810,Last Reading: 25.6810 - 12/19/2022 10:26:07 AM,12/19/2022 10:26:28 AM,Connected,Magno Grid - E212,01.00.03
+00AA01CA,,Normal,Initial/Latest kWh 0 / 23.0090,Last Reading: 23.0090 - 12/19/2022 9:50:06 AM,12/19/2022 9:50:20 AM,Connected,Magno Grid - E212,01.00.03
+00AA01D3,,Normal,Initial/Latest kWh 0 / 24.9540,Last Reading: 24.9540 - 12/19/2022 3:59:23 PM,12/19/2022 3:59:40 PM,Connected,Magno Grid - E212,01.00.03
+00AA01D5,,Normal,Initial/Latest kWh 0 / 37.6510,Last Reading: 37.6510 - 12/19/2022 2:56:28 PM,12/19/2022 2:56:54 PM,Connected,Magno Grid - E212,01.00.03
+00AA01D7,,Normal,Initial/Latest kWh 0 / 18.7050,Last Reading: 18.7050 - 11/30/2022 9:08:21 AM,11/30/2022 9:08:42 AM,Connected,Magno Grid - E212,01.00.03
+00AA01D9,,Normal,Initial/Latest kWh 0 / 22.5260,Last Reading: 22.5260 - 12/19/2022 5:18:28 PM,12/19/2022 5:18:51 PM,Connected,Magno Grid - E212,01.00.03
+00AA01DB,,Normal,Initial/Latest kWh 0 / 21.3520,Last Reading: 21.3520 - 12/19/2022 7:00:14 PM,12/19/2022 7:00:27 PM,Connected,Magno Grid - E212,01.00.03
+00AA01DF,,Normal,Initial/Latest kWh 0 / 21.8030,Last Reading: 21.8030 - 11/30/2022 12:25:20 PM,11/30/2022 12:25:32 PM,Connected,Magno Grid - E212,01.00.03
+00AA01E1,,Normal,Initial/Latest kWh 0 / 26.0120,Last Reading: 26.0120 - 12/19/2022 5:51:22 PM,12/19/2022 5:51:43 PM,Connected,Magno Grid - E212,01.00.03
+00AA01E3,,Normal,Initial/Latest kWh 0 / 23.4830,Last Reading: 23.4830 - 12/19/2022 5:15:21 PM,12/19/2022 5:15:35 PM,Connected,Magno Grid - E212,01.00.03
+00AA01E5,,Normal,Initial/Latest kWh 0 / 23.1640,Last Reading: 23.1640 - 12/19/2022 4:39:21 PM,12/19/2022 4:39:40 PM,Connected,Magno Grid - E212,01.00.03
+00AA01E7,,Normal,Initial/Latest kWh 0 / 16.45,Last Reading: 16.4500 - 11/30/2022 9:41:44 AM,11/30/2022 9:41:57 AM,Connected,Magno Grid - E212,01.00.03
+00AA01E9,,Normal,Initial/Latest kWh 0 / 16.6190,Last Reading: 16.6190 - 11/30/2022 11:19:53 AM,11/30/2022 11:20:17 AM,Connected,Magno Grid - E212,01.00.03
+00AA01EB,,Normal,Initial/Latest kWh 0 / 20.3490,Last Reading: 20.3490 - 11/30/2022 10:47:10 AM,11/30/2022 10:47:33 AM,Connected,Magno Grid - E212,01.00.03
+00AA01ED,,Normal,Initial/Latest kWh 0 / 19.5320,Last Reading: 19.5320 - 11/30/2022 11:52:37 AM,11/30/2022 11:52:52 AM,Connected,Magno Grid - E212,01.00.03
+00AA01EF,,Normal,Initial/Latest kWh 0 / 34.6940,Last Reading: 34.6940 - 11/30/2022 10:11:16 AM,11/30/2022 10:11:37 AM,Connected,Magno Grid - E212,01.00.03
+00AA01F1,,Normal,Initial/Latest kWh 0 / 25.0160,Last Reading: 25.0160 - 12/19/2022 4:03:21 PM,12/19/2022 4:03:42 PM,Connected,Magno Grid - E212,01.00.03
+00AA01F3,,Normal,Initial/Latest kWh 0 / 23.6620,Last Reading: 23.6620 - 12/19/2022 3:27:21 PM,12/19/2022 3:27:37 PM,Connected,Magno Grid - E212,01.00.03
+00AA01F5,,Normal,Initial/Latest kWh 0 / 32.8730,Last Reading: 32.8730 - 12/19/2022 1:44:28 PM,12/19/2022 1:44:48 PM,Connected,Magno Grid - E212,01.00.03
+00AA01F7,,Normal,Initial/Latest kWh 0 / 28.8120,Last Reading: 28.8120 - 12/19/2022 8:18:28 AM,12/19/2022 8:18:49 AM,Connected,Magno Grid - E212,01.00.03
+00AA01F9,,Normal,Initial/Latest kWh 0 / 38.8110,Last Reading: 38.8110 - 12/19/2022 6:48:28 PM,12/19/2022 6:48:46 PM,Connected,Magno Grid - E212,01.00.03
+00AA01FC,,Normal,Initial/Latest kWh 0 / 31.7920,Last Reading: 31.7920 - 11/23/2022 1:58:46 PM,11/25/2022 4:40:17 PM,Connected,Magno Grid - E212,01.00.03
+00AA01FE,,Normal,Initial/Latest kWh 0 / 27.1190,Last Reading: 27.1190 - 12/19/2022 2:48:29 PM,12/19/2022 2:48:59 PM,Connected,Magno Grid - E212,01.00.03
+00AA0200,,Normal,Initial/Latest kWh 0 / 21.2540,Last Reading: 21.2540 - 12/19/2022 6:25:24 PM,12/19/2022 6:25:41 PM,Connected,Magno Grid - E212,01.00.03
+00AA0204,,Normal,Initial/Latest kWh 0 /,Last Reading:,11/25/2022 4:41:57 PM,Connected,Magno Grid - E212,01.00.03
+00AA0206,,Normal,Initial/Latest kWh 0 / 26.3630,Last Reading: 26.3630 - 12/19/2022 5:19:58 PM,12/19/2022 5:20:22 PM,Connected,Magno Grid - E212,01.00.03
+00AA0208,,Normal,Initial/Latest kWh 0 / 43.3350,Last Reading: 43.3350 - 12/19/2022 4:52:46 PM,12/19/2022 4:53:09 PM,Connected,Magno Grid - E212,01.00.03
+00AA020C,,Normal,Initial/Latest kWh 0 / 44.2570,Last Reading: 44.2570 - 12/19/2022 3:40:46 PM,12/19/2022 3:41:09 PM,Connected,Magno Grid - E212,01.00.03
+00AA0214,,Normal,Initial/Latest kWh 0 / 12.9420,Last Reading: 12.9420 - 11/30/2022 10:14:27 AM,11/30/2022 10:14:52 AM,Connected,Magno Grid - E212,01.00.03
+00AA0216,,Normal,Initial/Latest kWh 0 / 8.5370,Last Reading: 8.5370 - 12/19/2022 6:42:59 PM,12/19/2022 6:43:12 PM,Connected,Magno Grid - E212,01.00.03
+00AA021C,,Normal,Initial/Latest kWh 0 / 31.4440,Last Reading: 31.4440 - 11/30/2022 6:54:59 AM,11/30/2022 6:55:23 AM,Connected,Magno Grid - E212,01.00.03
+00AA021E,,Normal,Initial/Latest kWh 0 / 40.3590,Last Reading: 40.3590 - 12/19/2022 2:23:43 PM,12/19/2022 2:24:09 PM,Connected,Magno Grid - E212,01.00.03
+00AA0222,,Normal,Initial/Latest kWh 0 / 25.59,Last Reading: 25.5900 - 12/19/2022 5:48:28 PM,12/19/2022 5:48:50 PM,Connected,Magno Grid - E212,01.00.03
+00AA0224,,Normal,Initial/Latest kWh 0 / 42.2060,Last Reading: 42.2060 - 12/19/2022 4:18:51 PM,12/19/2022 4:19:04 PM,Connected,Magno Grid - E212,01.00.03
+00AA0228,,Normal,Initial/Latest kWh 0 / 66.3140,Last Reading: 66.3140 - 12/19/2022 7:16:45 PM,12/19/2022 7:17:05 PM,Connected,Magno Grid - E212,01.00.03
+00AA0232,,Normal,Initial/Latest kWh 0 / 34.0110,Last Reading: 34.0110 - 12/19/2022 1:08:28 PM,12/19/2022 1:08:52 PM,Connected,Magno Grid - E212,01.00.03
+00AA0234,,Normal,Initial/Latest kWh 0 / 24.9870,Last Reading: 24.9870 - 12/19/2022 7:15:42 PM,12/19/2022 7:16:07 PM,Connected,Magno Grid - E212,01.00.03
+00AA0236,,Normal,Initial/Latest kWh 0 / 8.7260,Last Reading: 8.7260 - 12/19/2022 5:37:33 PM,12/19/2022 5:37:53 PM,Connected,Magno Grid - E212,01.00.03
+00AA0238,,Normal,Initial/Latest kWh 0 / 35.3690,Last Reading: 35.3690 - 12/19/2022 4:08:26 PM,12/19/2022 4:08:46 PM,Connected,Magno Grid - E212,01.00.03
+00AA023A,,Normal,Initial/Latest kWh 0 / 33.06,Last Reading: 33.0600 - 12/19/2022 4:44:26 PM,12/19/2022 4:44:43 PM,Connected,Magno Grid - E212,01.00.03
+00AA023C,,Normal,Initial/Latest kWh 0 / 26.13,Last Reading: 26.1300 - 12/19/2022 2:21:16 PM,12/19/2022 2:21:37 PM,Connected,Magno Grid - E212,01.00.03
+00AA023E,,Normal,Initial/Latest kWh 0 / 30.6480,Last Reading: 30.6480 - 12/19/2022 6:32:27 PM,12/19/2022 6:32:53 PM,Connected,Magno Grid - E212,01.00.03
+00AA0240,,Normal,Initial/Latest kWh 0 / 28.9970,Last Reading: 28.9970 - 11/30/2022 9:09:03 AM,11/30/2022 9:09:23 AM,Connected,Magno Grid - E212,01.00.03
+00AA0244,,Normal,Initial/Latest kWh 0 / 36.9910,Last Reading: 36.9910 - 12/19/2022 8:02:06 PM,12/19/2022 8:02:30 PM,Connected,Magno Grid - E212,01.00.03
+00AA024A,,Normal,Initial/Latest kWh 0 / 22.5320,Last Reading: 22.5320 - 12/19/2022 7:39:23 PM,12/19/2022 7:39:42 PM,Connected,Magno Grid - E212,01.00.03
+00AA024C,,Normal,Initial/Latest kWh 0 / 23.20,Last Reading: 23.2000 - 12/19/2022 5:38:07 AM,12/19/2022 5:38:28 AM,Connected,Magno Grid - E212,01.00.03
+00AA024E,,Normal,Initial/Latest kWh 0 / 25.4970,Last Reading: 25.4970 - 12/19/2022 12:14:07 PM,12/19/2022 12:14:31 PM,Connected,Magno Grid - E212,01.00.03
+00AA0250,,Normal,Initial/Latest kWh 0 / 30.8180,Last Reading: 30.8180 - 12/19/2022 1:18:28 PM,12/19/2022 1:18:51 PM,Connected,Magno Grid - E212,01.00.03
+00AA0252,,Normal,Initial/Latest kWh 0 / 21.9140,Last Reading: 21.9140 - 12/19/2022 4:18:27 PM,12/19/2022 4:18:47 PM,Connected,Magno Grid - E212,01.00.03
+00AA089E,,Normal,Initial/Latest kWh 0 / 26.6990,Last Reading: 26.6990 - 12/19/2022 7:36:23 PM,12/19/2022 7:36:52 PM,Connected,Magno Grid - E223,01.00.03
+00AA08A0,,Normal,Initial/Latest kWh 0 / 26.6930,Last Reading: 26.6930 - 12/19/2022 6:06:23 PM,12/19/2022 6:06:47 PM,Connected,Magno Grid - E223,01.00.03
+00AA08A2,,Normal,Initial/Latest kWh 0 / 27.0820,Last Reading: 27.0820 - 12/19/2022 12:51:23 PM,12/19/2022 12:51:37 PM,Connected,Magno Grid - E223,01.00.03
+00AA08A4,,Normal,Initial/Latest kWh 0 / 26.08,Last Reading: 26.0800 - 12/19/2022 8:21:24 PM,12/19/2022 8:21:46 PM,Connected,Magno Grid - E223,01.00.03
+00AA08A6,,Normal,Initial/Latest kWh 0 / 16.9250,Last Reading: 16.9250 - 12/19/2022 3:33:51 PM,12/19/2022 3:34:04 PM,Connected,Magno Grid - E223,01.00.03
+00AA08A8,,Normal,Initial/Latest kWh 0 / 17.27,Last Reading: 17.2700 - 12/19/2022 5:03:52 PM,12/19/2022 5:04:08 PM,Connected,Magno Grid - E223,01.00.03
+00AA08AC,,Normal,Initial/Latest kWh 0 / 19.4770,Last Reading: 19.4770 - 12/19/2022 3:55:36 PM,12/19/2022 3:56:00 PM,Connected,Magno Grid - E223,01.00.06
+00AA08B2,,Normal,Initial/Latest kWh 0 / 19.1360,Last Reading: 19.1360 - 12/19/2022 3:11:11 PM,12/19/2022 3:11:35 PM,Connected,Magno Grid - E223,01.00.03
+00AA08B6,,Normal,Initial/Latest kWh 0 / 18.4750,Last Reading: 18.4750 - 12/19/2022 10:14:39 AM,12/19/2022 10:14:59 AM,Connected,Magno Grid - E223,01.00.03
+400A29D0,,Normal,Initial/Latest kWh 0 / 18.39,Last Reading: 18.3900 - 12/19/2022 6:40:47 PM,12/19/2022 6:41:10 PM,Connected,Magno Grid - E223,01.00.03
+400A29D2,,Normal,Initial/Latest kWh 0 / 27.1650,Last Reading: 27.1650 - 11/30/2022 8:33:08 AM,11/30/2022 8:33:27 AM,Connected,Magno Grid - E223,01.00.03
+400A29D4,,Normal,Initial/Latest kWh 0 /,Last Reading:,11/25/2022 4:41:07 PM,Connected,Magno Grid - E223,01.00.03
+400A29D6,,Normal,Initial/Latest kWh 0 / 19.6870,Last Reading: 19.6870 - 12/19/2022 6:10:16 PM,12/19/2022 6:10:37 PM,Connected,Magno Grid - E223,01.00.03
+400A29D8,,Normal,Initial/Latest kWh 0 / 18.9640,Last Reading: 18.9640 - 12/19/2022 4:55:37 PM,12/19/2022 4:55:55 PM,Connected,Magno Grid - E223,01.00.06
+400A29DA,,Normal,Initial/Latest kWh 0 / 8.0370,Last Reading: 8.0370 - 11/30/2022 8:03:36 AM,11/30/2022 8:03:55 AM,Connected,Magno Grid - E223,01.00.03
+400A29DC,,Normal,Initial/Latest kWh 0 / 18.4280,Last Reading: 18.4280 - 12/19/2022 3:53:35 PM,12/19/2022 3:53:55 PM,Connected,Magno Grid - E223,01.00.03
+400A29DE,,Normal,Initial/Latest kWh 0 / 19.1540,Last Reading: 19.1540 - 12/19/2022 5:55:37 PM,12/19/2022 5:55:59 PM,Connected,Magno Grid - E223,01.00.06
+400A29E0,,Normal,Initial/Latest kWh 0 /,Last Reading:,11/25/2022 4:41:33 PM,Connected,Magno Grid - E223,01.00.03
+400A29E2,,Normal,Initial/Latest kWh 0 / 18.7620,Last Reading: 18.7620 - 12/19/2022 7:55:37 PM,12/19/2022 7:55:57 PM,Connected,Magno Grid - E223,01.00.06
+400A29E4,,Normal,Initial/Latest kWh 0 / 18.7770,Last Reading: 18.7770 - 12/19/2022 8:55:38 PM,12/19/2022 8:56:04 PM,Connected,Magno Grid - E223,01.00.06
+400A29E6,,Normal,Initial/Latest kWh 0 / 18.4520,Last Reading: 18.4520 - 12/19/2022 4:53:35 PM,12/19/2022 4:54:00 PM,Connected,Magno Grid - E223,01.00.03
+400A29E8,,Normal,Initial/Latest kWh 0 / 18.7750,Last Reading: 18.7750 - 12/19/2022 4:06:32 PM,12/19/2022 4:06:45 PM,Connected,Magno Grid - E223,01.00.03
+400A29EA,,Normal,Initial/Latest kWh 0 / 19.2440,Last Reading: 19.2440 - 12/19/2022 6:55:37 PM,12/19/2022 6:56:04 PM,Connected,Magno Grid - E223,01.00.06
+400A29EC,,Normal,Initial/Latest kWh 0 / 18.78,Last Reading: 18.7800 - 12/19/2022 3:15:06 PM,12/19/2022 3:15:18 PM,Connected,Magno Grid - E223,01.00.03
+400A29EE,,Normal,Initial/Latest kWh 0 / 5.8670,Last Reading: 5.8670 - 12/19/2022 5:49:22 PM,12/19/2022 5:49:41 PM,Disconnected,Magno Grid - E223,01.00.03
+400A29F0,,Normal,Initial/Latest kWh 0 /,Last Reading: - 12/19/2022 6:39:06 PM,12/19/2022 6:39:28 PM,Connected,Magno Grid - E223,01.00.03
+400A29F2,,Normal,Initial/Latest kWh 0 / 39.2570,Last Reading: 39.2570 - 12/19/2022 6:04:47 PM,12/19/2022 6:05:05 PM,Connected,Magno Grid - E223,01.00.03
+400A29F4,,Normal,Initial/Latest kWh 0 / 38.6440,Last Reading: 38.6440 - 12/19/2022 5:28:46 PM,12/19/2022 5:29:07 PM,Connected,Magno Grid - E223,01.00.03
+400A29F8,,Normal,Initial/Latest kWh 0 / 8.1050,Last Reading: 8.1050 - 11/30/2022 12:08:21 PM,11/30/2022 12:08:45 PM,Connected,Magno Grid - E223,01.00.03
+400A29FC,,Normal,Initial/Latest kWh 0 / 8.4840,Last Reading: 8.4840 - 11/30/2022 11:08:21 AM,11/30/2022 11:08:38 AM,Connected,Magno Grid - E223,01.00.03
+400A29FE,,Normal,Initial/Latest kWh 0 / 18.6620,Last Reading: 18.6620 - 12/19/2022 4:57:57 PM,12/19/2022 4:58:17 PM,Connected,Magno Grid - E223,01.00.03
+400A2A00,,Normal,Initial/Latest kWh 0 / 18.8350,Last Reading: 18.8350 - 12/19/2022 6:53:36 PM,12/19/2022 6:54:00 PM,Connected,Magno Grid - E223,01.00.03
+400A2A02,,Normal,Initial/Latest kWh 0 /,Last Reading:,11/25/2022 4:40:38 PM,Connected,Magno Grid - E223,01.00.03
+400A2A04,,Normal,Initial/Latest kWh 0 / 25.8060,Last Reading: 25.8060 - 12/19/2022 6:33:52 PM,12/19/2022 6:34:17 PM,Connected,Magno Grid - E234,01.00.03
+400A2A06,,Normal,Initial/Latest kWh 0 / 25.9820,Last Reading: 25.9820 - 12/19/2022 8:03:52 PM,12/19/2022 8:04:11 PM,Connected,Magno Grid - E234,01.00.03
+400A2A0C,,Normal,Initial/Latest kWh 0 /,Last Reading: - 12/19/2022 9:03:04 PM,12/19/2022 9:03:29 PM,Connected,Magno Grid - E234,01.00.03
+400A2A0E,,Normal,Initial/Latest kWh 0 / 27.9330,Last Reading: 27.9330 - 12/19/2022 7:53:36 PM,12/19/2022 7:53:56 PM,Connected,Magno Grid - E234,01.00.03
+400A2A10,,Normal,Initial/Latest kWh 0 / 12.5550,Last Reading: 12.5550 - 11/30/2022 7:08:22 AM,11/30/2022 7:08:52 AM,Connected,Magno Grid - E234,01.00.03
+400A2A12,,Normal,Initial/Latest kWh 0 / 10.5140,Last Reading: 10.5140 - 11/30/2022 7:04:34 AM,11/30/2022 7:04:52 AM,Connected,Magno Grid - E234,01.00.03
+400A2A18,,Normal,Initial/Latest kWh 0 / 25.3770,Last Reading: 25.3770 - 12/19/2022 9:10:30 PM,12/19/2022 9:10:46 PM,Connected,Magno Grid - E234,01.00.03
+400A2A1A,,Normal,Initial/Latest kWh 0 / 10.4520,Last Reading: 10.4520 - 11/30/2022 11:34:33 AM,11/30/2022 11:34:58 AM,Connected,Magno Grid - E234,01.00.03
+400A2A1C,,Normal,Initial/Latest kWh 0 / 57.8280,Last Reading: 57.8280 - 12/19/2022 5:20:27 PM,12/19/2022 5:20:54 PM,Connected,Magno Grid - E234,01.00.03
+400A2A1E,,Normal,Initial/Latest kWh 0 / 27.9460,Last Reading: 27.9460 - 12/19/2022 4:40:31 PM,12/19/2022 4:40:51 PM,Connected,Magno Grid - E234,01.00.03
+400A2A22,,Normal,Initial/Latest kWh 0 / 10.2970,Last Reading: 10.2970 - 11/30/2022 8:34:34 AM,11/30/2022 8:34:56 AM,Connected,Magno Grid - E234,01.00.03
+400A2A24,,Normal,Initial/Latest kWh 0 /,Last Reading:,11/25/2022 4:39:37 PM,Connected,Magno Grid - E234,01.00.03
+400A2A2A,,Normal,Initial/Latest kWh 0 / 14.0220,Last Reading: 14.0220 - 11/30/2022 8:08:22 AM,11/30/2022 8:08:50 AM,Connected,Magno Grid - E234,01.00.03
+400A2A2E,,Normal,Initial/Latest kWh 0 / 4.1780,Last Reading: 4.1780 - 11/23/2022 12:58:46 PM,11/25/2022 4:42:10 PM,Connected,Magno Grid - E234,01.00.03
+400A2A30,,Normal,Initial/Latest kWh 0 / 28.5850,Last Reading: 28.5850 - 12/19/2022 2:38:08 PM,12/19/2022 2:38:29 PM,Connected,Magno Grid - E234,01.00.03
+400A2A32,,Normal,Initial/Latest kWh 0 /,Last Reading: - 12/19/2022 4:15:05 PM,12/19/2022 4:15:20 PM,Connected,Magno Grid - E234,01.00.03
+400A2A34,,Normal,Initial/Latest kWh 0 /,Last Reading: - 12/19/2022 5:27:05 PM,12/19/2022 5:27:28 PM,Connected,Magno Grid - E234,01.00.03
+400A2A36,,Normal,Initial/Latest kWh 0 / 4.1280,Last Reading: 4.1280 - 11/23/2022 11:58:45 AM,11/25/2022 4:41:08 PM,Connected,Magno Grid - E234,01.00.03
+400A2A38,,Normal,Initial/Latest kWh 0 / 3.9890,Last Reading: 3.9890 - 11/23/2022 10:58:45 AM,11/25/2022 4:40:42 PM,Connected,Magno Grid - E234,01.00.03
+400A2A3A,,Normal,Initial/Latest kWh 0 / 28.2080,Last Reading: 28.2080 - 12/19/2022 7:03:22 PM,12/19/2022 7:03:36 PM,Connected,Magno Grid - E234,01.00.03
+400A2A46,,Normal,Initial/Latest kWh 0 / 27.7340,Last Reading: 27.7340 - 12/19/2022 7:40:32 PM,12/19/2022 7:40:55 PM,Connected,Magno Grid - E234,01.00.03
+400A2A48,,Normal,Initial/Latest kWh 0 / 27.2940,Last Reading: 27.2940 - 12/19/2022 4:51:47 PM,12/19/2022 4:52:01 PM,Connected,Magno Grid - E234,01.00.03
+400A2A4A,,Normal,Initial/Latest kWh 0 / 27.92,Last Reading: 27.9200 - 12/19/2022 6:10:31 PM,12/19/2022 6:10:50 PM,Connected,Magno Grid - E234,01.00.03
+400A2A4C,,Normal,Initial/Latest kWh 0 / 19,Last Reading: 19.0000 - 12/19/2022 5:53:36 PM,12/19/2022 5:53:55 PM,Connected,Magno Grid - E223,01.00.03
+400A2A52,,Normal,Initial/Latest kWh 0 /,Last Reading:,11/28/2022 8:28:54 AM,Connected,Magno Grid - E223,01.00.03
+400A2A54,,Normal,Initial/Latest kWh 0 / 10.2730,Last Reading: 10.2730 - 11/30/2022 4:04:33 AM,11/30/2022 4:04:51 AM,Connected,Magno Grid - E234,01.00.03
+400A2A4E,,Normal,Initial/Latest kWh 0 / 44.0510,Last Reading: 44.0510 - 12/19/2022 9:18:51 PM,12/19/2022 9:19:01 PM,Connected,Magno Grid - E223,01.00.03
+400A2A50,,Normal,Initial/Latest kWh 0 / 43.3960,Last Reading: 43.3960 - 12/19/2022 5:18:52 PM,12/19/2022 5:19:21 PM,Disconnected,Magno Grid - E223,01.00.03
+400A29F6,,Normal,Initial/Latest kWh 0 / 42.9760,Last Reading: 42.9760 - 12/19/2022 6:18:52 PM,12/19/2022 6:19:13 PM,Disconnected,Magno Grid - E223,01.00.03
+400A29FA,,Normal,Initial/Latest kWh 0 / 43.0010,Last Reading: 43.0010 - 12/19/2022 7:18:52 PM,12/19/2022 7:19:20 PM,Disconnected,Magno Grid - E223,01.00.03
+400A2A3C,,Normal,Initial/Latest kWh 0 / 65.73,Last Reading: 65.7300 - 12/19/2022 8:18:52 PM,12/19/2022 8:19:12 PM,Disconnected,Magno Grid - E234,01.00.03

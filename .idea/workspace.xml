@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5ac8be34-faaa-4b60-9e3f-5a5229ad0ca7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log01122022.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log02122022.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log30112022.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/tst22112022.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +33,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/metercpuformater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RompkoH\OneDrive - Landis+Gyr\dsk\Scripts\Python\PloterGraph\files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\RompkoH\OneDrive - Landis+Gyr\dsk\Scripts\Python\PloterGraph\files" />
     </key>
@@ -76,8 +83,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="3" />
+          <line>123</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

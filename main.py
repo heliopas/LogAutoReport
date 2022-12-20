@@ -14,12 +14,12 @@ def loadFiles():
     logList = []
     #lista arquivos do diretório
     for logfiles in os.listdir(logsfilePath):
-        if logfiles.startswith('log'):
+        if logfiles.__contains__('log'):
             filesName.append(logfiles)
     #carrega arquivos com nome logxx/xx/xxxx.csv
 
     for aux in range(len(filesName)):
-        if filesName[aux].startswith('log'):
+        if filesName[aux].__contains__('log'):
             with open(logsfilePath + filesName[aux], "r", newline='\r\n') as file1:
                 logList.append(file1.read())
 
@@ -63,13 +63,14 @@ def logMeter():
     print(tabulate(result, headers=colName, tablefmt="fancy_grid"))
 
 def plotGraph():
-
+    meterOrded = []
+    kWhOrded = []
     endpoint =[]
 
     for aux in range(len(logList)):
         counter = aux
         endpoint = logList[aux]
-
+        print(logList)
         devide = endpoint.strip().split('\r\n')
 
         medidor = []
@@ -94,17 +95,36 @@ def plotGraph():
             else:
                 consumo[aux] = '0'
 
-        consumoFloat = np.array(consumo)
-        floatarray = consumoFloat.astype(float)
+        if counter == 0:
+            consumoFloat = np.array(consumo)
+            floatarray = consumoFloat.astype(float)
 
-        zipList = zip(floatarray, medidor)
-        sorlist = sorted(zipList)
+            zipList = zip(floatarray, medidor)
+            sorlist = sorted(zipList)
 
-        aux = zip(*sorlist)
-        consumo, medidor = [ list(aux1) for aux1 in aux]
+            aux = zip(*sorlist)
+            consumo, medidor = [ list(aux1) for aux1 in aux]
 
-        ploterGraph.plot(medidor, consumo, label= filesName[counter])
-        ploterGraph.draw()
+            meterOrded = medidor
+            kWhOrded = consumo
+
+            ploterGraph.plot(meterOrded, kWhOrded, label=filesName[counter])
+            ploterGraph.draw()
+        else:
+            plotmeter = []
+            plotkWh = []
+            for aux in range(len(meterOrded)):
+                try:
+                    index = medidor.index(meterOrded[aux])
+                    plotmeter.append(medidor[index])
+                    plotkWh.append(consumo[index])
+                except ValueError:
+                    print('Medidor não está na lista')
+
+            ploterGraph.plot(plotmeter, plotkWh, label= filesName[counter])
+            ploterGraph.draw()
+
+
 
     ploterGraph.legend()
     ploterGraph.show()
