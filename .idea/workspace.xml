@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5ac8be34-faaa-4b60-9e3f-5a5229ad0ca7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log011222.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log021222.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log151222.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log221122.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/teste.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/tst30112022.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/011222.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/021222.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/151222.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/221122.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
