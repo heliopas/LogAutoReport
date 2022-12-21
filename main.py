@@ -6,6 +6,8 @@ import operator as op
 from tabulate import tabulate
 
 logsfilePath = 'files/'
+endPointfilePath = 'files/endpointcpu.csv'
+metersfilePath = 'files/meters.csv'
 
 def loadFiles():
     global logList
@@ -23,6 +25,9 @@ def loadFiles():
             with open(logsfilePath + filesName[aux], "r", newline='\r\n') as file1:
                 logList.append(file1.read())
 
+    with open(metersfilePath, "r", encoding="utf8") as file2:
+        global meters
+        meters = file2.read()
     return 'Arquivos carregados!!!'
 
 def logMeter():
@@ -66,11 +71,20 @@ def plotGraph():
     meterOrded = []
     kWhOrded = []
     endpoint =[]
+    data = {}
+
+    meterLanIDfile = meters.split('\n')
+    meterLanID = []
+    meterplotGraph = []
+
+
+    for aux in range(len(meterLanIDfile)):
+        if meterLanIDfile[aux].__contains__(',0'):
+            meterLanID.append(meterLanIDfile[aux])
 
     for aux in range(len(logList)):
         counter = aux
         endpoint = logList[aux]
-        print(logList)
         devide = endpoint.strip().split('\r\n')
 
         medidor = []
@@ -79,10 +93,8 @@ def plotGraph():
         for aux in range(len(devide)):
             if devide[aux].__contains__('kWh'):
                 medidor.append(devide[aux].split(',')[0])
-                aux = devide[aux].split(',')[1].removeprefix('Initial/Latest kWh 0 /').strip()
+                aux = devide[aux].split(',')[3].removeprefix('Initial/Latest kWh 0 /').strip()
                 consumo.append(aux)
-
-        print(medidor+consumo)
 
         ploterGraph.title('Grafico de consumo')
         ploterGraph.xlabel('Medidor')
@@ -95,36 +107,28 @@ def plotGraph():
             else:
                 consumo[aux] = '0'
 
-        if counter == 0:
-            consumoFloat = np.array(consumo)
-            floatarray = consumoFloat.astype(float)
+        plotmeter = []
+        plotkWh = []
 
-            zipList = zip(floatarray, medidor)
-            sorlist = sorted(zipList)
+        for aux in range(len(meterLanID)):
+            try:
+                index = medidor.index(meterLanID[aux].removesuffix(',0'))
+                plotmeter.append(medidor[index])
+                plotkWh.append(float(consumo[index]))
+            except ValueError:
+                plotmeter.append('0')
+                plotkWh.append(float(0))
 
-            aux = zip(*sorlist)
-            consumo, medidor = [ list(aux1) for aux1 in aux]
+        if len(meterplotGraph) == 0:
+            meterplotGraph = plotmeter
 
-            meterOrded = medidor
-            kWhOrded = consumo
+        data = { 'meter': meterplotGraph, 'kWh': plotkWh }
 
-            ploterGraph.plot(meterOrded, kWhOrded, label=filesName[counter])
-            ploterGraph.draw()
-        else:
-            plotmeter = []
-            plotkWh = []
-            for aux in range(len(meterOrded)):
-                try:
-                    index = medidor.index(meterOrded[aux])
-                    plotmeter.append(medidor[index])
-                    plotkWh.append(consumo[index])
-                except ValueError:
-                    print('Medidor não está na lista')
+        df = pd.DataFrame(data)
+        df.sort_values('kWh', ascending=True)
 
-            ploterGraph.plot(plotmeter, plotkWh, label= filesName[counter])
-            ploterGraph.draw()
-
-
+        ploterGraph.plot('meter', 'kWh' , data=df, label=filesName[counter])
+        ploterGraph.draw()
 
     ploterGraph.legend()
     ploterGraph.show()

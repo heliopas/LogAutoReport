@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5ac8be34-faaa-4b60-9e3f-5a5229ad0ca7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log01122022.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log02122022.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/log30112022.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/tst22112022.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log011222.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log021222.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log151222.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/log221122.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/teste.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/tst30112022.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,18 +85,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>123</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>110</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="18" />
+          <line>124</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
