@@ -116,7 +116,7 @@ def plotGraph():
                 plotmeter.append(medidor[index])
                 plotkWh.append(float(consumo[index]))
             except ValueError:
-                plotmeter.append('0')
+                plotmeter.append(meterLanID[aux].removesuffix(',0'))
                 plotkWh.append(float(0))
 
         if len(meterplotGraph) == 0:
@@ -127,7 +127,7 @@ def plotGraph():
         df = pd.DataFrame(data)
         df.sort_values('kWh', ascending=True)
 
-        ploterGraph.plot('meter', 'kWh' , data=df, label=filesName[counter])
+        ploterGraph.plot('meter', 'kWh' , data=df,label=filesName[counter])
         ploterGraph.draw()
 
     ploterGraph.legend()
