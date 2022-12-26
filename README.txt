@@ -13,3 +13,4 @@ release notes:
 *Corrigir multi plot de linha. Hoje está sendo plotado somente duas linhas
 *Corrigir exibição de medidores, hoje não pega o primeiro medidor da lista de meters *erro na carga de medidor*
 -- integrar ferramenta no sistema de monitoramento
+-- Calcular delta de crescimento de medidores aproximado para monitoramento

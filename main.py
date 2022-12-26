@@ -5,7 +5,7 @@ import numpy as np
 import operator as op
 from tabulate import tabulate
 
-logsfilePath = 'files/'
+logsfilePath = 'C:/Users/RompkoH/OneDrive - Landis+Gyr/ServTestes/LogMagnoFarmMonitor/AMS/'
 endPointfilePath = 'files/endpointcpu.csv'
 metersfilePath = 'files/meters.csv'
 
