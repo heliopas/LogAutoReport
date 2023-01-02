@@ -1,13 +1,17 @@
+import glob
 import os
 import matplotlib.pyplot as ploterGraph
 import pandas as pd
 import numpy as np
 import operator as op
 from tabulate import tabulate
+from pathlib import Path
 
 logsfilePath = 'C:/Users/RompkoH/OneDrive - Landis+Gyr/ServTestes/LogMagnoFarmMonitor/AMS/'
 endPointfilePath = 'files/endpointcpu.csv'
 metersfilePath = 'files/meters.csv'
+
+logPlotqtd = 10
 
 def loadFiles():
     global logList
@@ -15,10 +19,20 @@ def loadFiles():
     filesName = []
     logList = []
     #lista arquivos do diretório
-    for logfiles in os.listdir(logsfilePath):
-        if logfiles.__contains__('log'):
-            filesName.append(logfiles)
+
+    logsfiles = sorted(Path(logsfilePath).iterdir(), key=os.path.getmtime)
+
+    for aux in range(len(logsfiles)):
+        if logsfiles[aux].name.__contains__('log'):
+            filesName.append(logsfiles[aux].name)
     #carrega arquivos com nome logxx/xx/xxxx.csv
+
+    if logPlotqtd != 0:
+        for aux in range(len(filesName)):
+            if aux == logPlotqtd:
+                break
+            else:
+                filesName.pop(0)
 
     for aux in range(len(filesName)):
         if filesName[aux].__contains__('log'):
@@ -96,7 +110,7 @@ def plotGraph():
                 aux = devide[aux].split(',')[3].removeprefix('Initial/Latest kWh 0 /').strip()
                 consumo.append(aux)
 
-        ploterGraph.title('Grafico de consumo')
+        ploterGraph.title('Gráfico de consumo')
         ploterGraph.xlabel('Medidor')
         ploterGraph.ylabel('kWh')
 
