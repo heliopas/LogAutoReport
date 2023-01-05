@@ -11,7 +11,10 @@ logsfilePath = 'C:/Users/RompkoH/OneDrive - Landis+Gyr/ServTestes/LogMagnoFarmMo
 endPointfilePath = 'files/endpointcpu.csv'
 metersfilePath = 'files/meters.csv'
 
-logPlotqtd = 10
+logPlotqtd = 0
+
+global dfArray
+dfArray = []
 
 def loadFiles():
     global logList
@@ -19,14 +22,13 @@ def loadFiles():
     filesName = []
     logList = []
     #lista arquivos do diretório
-
     logsfiles = sorted(Path(logsfilePath).iterdir(), key=os.path.getmtime)
 
     for aux in range(len(logsfiles)):
         if logsfiles[aux].name.__contains__('log'):
             filesName.append(logsfiles[aux].name)
-    #carrega arquivos com nome logxx/xx/xxxx.csv
 
+    # limita o numero de logs a serem plotados
     if logPlotqtd != 0:
         for aux in range(len(filesName)):
             if aux == logPlotqtd:
@@ -34,6 +36,7 @@ def loadFiles():
             else:
                 filesName.pop(0)
 
+    # carrega arquivos com nome logxx/xx/xxxx.csv
     for aux in range(len(filesName)):
         if filesName[aux].__contains__('log'):
             with open(logsfilePath + filesName[aux], "r", newline='\r\n') as file1:
@@ -91,7 +94,6 @@ def plotGraph():
     meterLanID = []
     meterplotGraph = []
 
-
     for aux in range(len(meterLanIDfile)):
         if meterLanIDfile[aux].__contains__(',0'):
             meterLanID.append(meterLanIDfile[aux])
@@ -110,7 +112,7 @@ def plotGraph():
                 aux = devide[aux].split(',')[3].removeprefix('Initial/Latest kWh 0 /').strip()
                 consumo.append(aux)
 
-        ploterGraph.title('Gráfico de consumo')
+        ploterGraph.title('Gráfico de consumo - Monitoramento')
         ploterGraph.xlabel('Medidor')
         ploterGraph.ylabel('kWh')
 
@@ -141,14 +143,52 @@ def plotGraph():
         df = pd.DataFrame(data)
         df.sort_values('kWh', ascending=True)
 
+        dfArray.append(df)
+
         ploterGraph.plot('meter', 'kWh' , data=df,label=filesName[counter])
         ploterGraph.draw()
 
     ploterGraph.legend()
+    #ploterGraph.show()
+
+def plotTendline():
+    dfArrayMerge = []
+
+    for aux in range(len(dfArray)):
+        if len(dfArrayMerge) == 0:
+            dfArrayMerge.append(dfArray[aux].meter)
+            dfArrayMerge.append(dfArray[aux].kWh)
+        else:
+            dfArrayMerge.append(dfArray[aux].kWh)
+
+    resultMerge = pd.concat(dfArrayMerge, axis=1, join="inner")
+
+    resultMerge['mean'] = resultMerge.mean(axis=1)
+
+    x = []
+    y = []
+
+    for aux in range(len(resultMerge)):
+        x.append(str(resultMerge['meter'].values[aux]))
+
+    for aux in range(len(resultMerge)):
+        y.append(str(resultMerge['mean'].values[aux]))
+
+    resultMerge['sub'] = resultMerge.iloc[:, (resultMerge.columns.size-2)] - resultMerge.iloc[:, (resultMerge.columns.size-3)]
+
+    ploterGraph.subplots(1, 1)
+    ploterGraph.title(label='Consumo em kWh P/dia')
+    ploterGraph.plot('meter', 'sub', data=resultMerge)
+    ploterGraph.xlabel('Medidor')
+    ploterGraph.ylabel('kWh')
+
     ploterGraph.show()
 
+    print(resultMerge.iloc[:, (resultMerge.columns.size-2)])
+    #print(resultMerge)
 
 print(loadFiles())
 #logMeter()
 plotGraph()
+plotTendline()
 

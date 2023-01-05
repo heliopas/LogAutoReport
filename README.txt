@@ -6,12 +6,14 @@
 
 release notes:
 
-26/12/2022 - Ver1.0 ( MultiGraphPlotNorded updated )
+26/12/2022 - Ver2.0 ( MultiGraphPlotNorded updated )
 
 *Corrigir ordenação de plot de medirores X consumo no grafico
 *Corrigido para usar o novo log da ferramenta de monitoramento
 *Corrigir multi plot de linha. Hoje está sendo plotado somente duas linhas
 *Corrigir exibição de medidores, hoje não pega o primeiro medidor da lista de meters *erro na carga de medidor
 *Setar quantidade de arquivos de logs a serem exibidos
+*Calculo de consumo por dia de uso (grafico Consumo em kWh P/dia)
+-- inserir retas com a média de consumo por modelo de medidor
+-- Calcular delta de crescimento de medidores aproximado para monitoramento (vetor tendência)
 -- integrar ferramenta no sistema de monitoramento
--- Calcular delta de crescimento de medidores aproximado para monitoramento
