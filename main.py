@@ -180,10 +180,11 @@ def plotconsuptionGraph():
     ploterGraph.show()
 
 def plotconsuptionIndividual():
+    resultMergelocal = resultMerge
     # mean calculation
-    resultMerge['mean'] = resultMerge.mean(axis=1, numeric_only=float)
+    resultMergelocal['mean'] = resultMergelocal.mean(axis=1, numeric_only=float)
     # subtract the consumption value from last log days
-    resultMerge['sub'] = resultMerge.iloc[:, (resultMerge.columns.size-2)] - resultMerge.iloc[:, (resultMerge.columns.size-3)]
+    resultMergelocal['sub'] = resultMergelocal.iloc[:, (resultMergelocal.columns.size-2)] - resultMergelocal.iloc[:, (resultMergelocal.columns.size-3)]
 
     fig, axs = ploterGraph.subplots(2)
 
@@ -191,10 +192,10 @@ def plotconsuptionIndividual():
     ploterGraph.xlabel('Medidor')
     ploterGraph.ylabel('kWh')
     #plot value from last days logs
-    axs[0].plot('meter', 'sub', data=resultMerge)
+    axs[0].plot('meter', 'sub', data=resultMergelocal)
 
     ploterGraph.title('Histograma de consumo')
-    axs[1].hist(x=resultMerge['sub'], bins=15, align='mid', histtype='bar')
+    axs[1].hist(x=resultMergelocal['sub'], bins=15, align='mid', histtype='bar')
     ploterGraph.show()
 
 
