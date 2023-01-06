@@ -178,10 +178,11 @@ def plotTendline():
 
     ploterGraph.subplots(1, 1)
     ploterGraph.title(label='Consumo em kWh P/dia')
-    ploterGraph.plot('meter', 'sub', data=resultMerge)
     ploterGraph.xlabel('Medidor')
     ploterGraph.ylabel('kWh')
+    ploterGraph.plot('meter', 'sub', data=resultMerge)
 
+    resultMerge.hist(column='sub', bins=10, grid=True)
     ploterGraph.show()
 
     print(resultMerge.iloc[:, (resultMerge.columns.size-2)])

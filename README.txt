@@ -13,7 +13,8 @@ release notes:
 *Corrigir multi plot de linha. Hoje está sendo plotado somente duas linhas
 *Corrigir exibição de medidores, hoje não pega o primeiro medidor da lista de meters *erro na carga de medidor
 *Setar quantidade de arquivos de logs a serem exibidos
-*Calculo de consumo por dia de uso (grafico Consumo em kWh P/dia)
+*Calculo de consumo por dia de uso (grafico Consumo em kWh P/dia) - 06/01/23
+*Calcular delta de crescimento de medidores aproximado para monitoramento (vetor tendência) - 06/01/23
 -- inserir retas com a média de consumo por modelo de medidor
--- Calcular delta de crescimento de medidores aproximado para monitoramento (vetor tendência)
+-- Reorganizar código e comentar
 -- integrar ferramenta no sistema de monitoramento
