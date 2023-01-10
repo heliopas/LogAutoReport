@@ -13,7 +13,7 @@ endPointfilePath = 'files/endpointcpu.csv'
 # meters serial numbers from Farm
 metersfilePath = 'files/meters.csv'
 # set log quantity to plot in graphs
-logPlotqtd = 12
+logPlotqtd = 0
 
 #save processed data frame from all logs to be used to plot graphs and others
 global dfArray, dfArrayMerge, resultMerge
@@ -188,6 +188,8 @@ def plotconsuptionIndividual():
 
     fig, axs = ploterGraph.subplots(2)
 
+    print(tabulate(resultMergelocal, headers='keys', tablefmt='psql'))
+
     fig.suptitle('Consumo em kWh P/dia')
     ploterGraph.xlabel('Medidor')
     ploterGraph.ylabel('kWh')
@@ -195,9 +197,8 @@ def plotconsuptionIndividual():
     axs[0].plot('meter', 'sub', data=resultMergelocal)
 
     ploterGraph.title('Histograma de consumo')
-    axs[1].hist(x=resultMergelocal['sub'], bins=15, align='mid', histtype='bar')
+    axs[1].hist(x=resultMergelocal['sub'], bins=100, align='mid', histtype='bar')
     ploterGraph.show()
-
 
 print(loadFiles())
 #logMeter()
